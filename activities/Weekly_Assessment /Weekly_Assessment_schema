@@ -1,7 +1,7 @@
 {
   "@context": [
        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-       "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/activities/Weekly_Assessment/Weekly_Assessment_context"  
+       "https://raw.githubusercontent.com/charlie42/GraphoLearn_EMA_applet/test/activities/Weekly_Assessment/Weekly_Assessment_context"  
   ],
   "@type": "reproschema:Activity",
   "@id": "Weekly Assessment ",
