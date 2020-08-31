@@ -33,7 +33,7 @@
     ],
     "order": [
       "Daily_Assessment",
-      "Weekly_Assessment ",
+      "Weekly_Assessment",
       "Monthly_Assessment"
     ],
     "shuffle": false
