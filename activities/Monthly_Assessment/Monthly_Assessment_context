@@ -25,6 +25,6 @@
       "@id": "Monthly_Assessment:perception",
       "@type": "@id"
     },
-    "Monthly Assessment": "https://raw.githubusercontent.com/charlie42/GraphoLearn_EMA_applet/test/activities/Monthly_Assessment/items/"
+    "Monthly Assessment": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/activities/Monthly_Assessment/items/"
   }
 }
