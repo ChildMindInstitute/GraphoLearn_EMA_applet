@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/activities/Monthly_Assessment/Monthly_Assessment_context"  
+  ],
+  "@type": "reproschema:Activity",
+  "@id": "Monthly Assessment",
+  "skos:prefLabel": "Monthly Assessment",
+  "skos:altLabel": "Monthly Assessment",
+  "schema:description": "A description can go here",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "preamble": "",
+  "scoringLogic": {},
+  "repronim:timeUnit": "yearmonthdate",
+  "ui": {
+    "order": [
+      ""
+    ],
+    "shuffle": false,
+    "addProperties": [
+      {
+        "variableName": "",
+        "isAbout": "",
+        "isVis": true
+      }
+    ],
+    "allow": []
+  }
+}

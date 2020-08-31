@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "": {
+      "@id": "Daily Assessment:",
+      "@type": "@id"
+    },
+    "Daily Assessment": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/activities/Daily_Assessment/items/"
+  }
+}

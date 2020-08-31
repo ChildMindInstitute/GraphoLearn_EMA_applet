@@ -1,0 +1,72 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/activities/Daily_Assessment/Daily_Assessment_context"  
+  ],
+  "@type": "reproschema:Activity",
+  "@id": "Daily Assessment",
+  "skos:prefLabel": "Daily Assessment",
+  "skos:altLabel": "Daily Assessment",
+  "schema:description": "A description can go here",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "preamble": "",
+  "scoringLogic": {},
+  "repronim:timeUnit": "yearmonthdate",
+  "ui": {
+    "order": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "shuffle": false,
+    "addProperties": [
+      {
+        "variableName": "",
+        "isAbout": "",
+        "isVis": true
+      },
+      {
+        "variableName": "",
+        "isAbout": "",
+        "isVis": true
+      },
+      {
+        "variableName": "",
+        "isAbout": "",
+        "isVis": true
+      },
+      {
+        "variableName": "",
+        "isAbout": "",
+        "isVis": true
+      },
+      {
+        "variableName": "",
+        "isAbout": "",
+        "isVis": true
+      },
+      {
+        "variableName": "",
+        "isAbout": "",
+        "isVis": true
+      },
+      {
+        "variableName": "",
+        "isAbout": "",
+        "isVis": true
+      },
+      {
+        "variableName": "",
+        "isAbout": "",
+        "isVis": true
+      }
+    ],
+    "allow": []
+  }
+}

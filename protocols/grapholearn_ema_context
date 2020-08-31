@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "activity_path": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/activities/",
+    "Daily Assessment": {
+      "@id": "activity_path:Daily Assessment/Daily Assessment_schema",
+      "@type": "@id"
+    },
+    "Weekly Assessment ": {
+      "@id": "activity_path:Weekly Assessment /Weekly Assessment _schema",
+      "@type": "@id"
+    },
+    "Monthly Assessment": {
+      "@id": "activity_path:Monthly Assessment/Monthly Assessment_schema",
+      "@type": "@id"
+    }
+  }
+}

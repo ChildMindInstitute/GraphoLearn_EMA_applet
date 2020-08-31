@@ -1,0 +1,40 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "self_harm_urges",
+    "ui": {
+        "inputType": "slider"
+    },
+    "question": "How much did your child play the game today (in minutes)?",
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 0,
+                "schema:name": "0",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 5,
+                "schema:name": "5",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 10,
+                "schema:name": "10",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 15,
+                "schema:name": "15",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 20,
+                "schema:name": "20",
+                "@type": "schema:option"
+            }
+        ]
+    }
+}
