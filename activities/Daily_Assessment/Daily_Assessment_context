@@ -9,6 +9,30 @@
       "@id": "Daily_Assessment:play_engagement",
       "@type": "@id"
     },
+    "play_distractions": {
+      "@id": "Daily_Assessment:play_distractions",
+      "@type": "@id"
+    },
+    "physical_health": {
+      "@id": "Daily_Assessment:physical_health",
+      "@type": "@id"
+    },
+    "sleep": {
+      "@id": "Daily_Assessment:sleep",
+      "@type": "@id"
+    },
+    "play_involvement": {
+      "@id": "Daily_Assessment:play_involvement",
+      "@type": "@id"
+    },
+    "play_applications": {
+      "@id": "Daily_Assessment:play_applications",
+      "@type": "@id"
+    },
+    "comments": {
+      "@id": "Daily_Assessment:comments",
+      "@type": "@id"
+    },
     "Daily Assessment": "https://raw.githubusercontent.com/charlie42/GraphoLearn_EMA_applet/test/activities/Daily_Assessment/items/"
   }
 }

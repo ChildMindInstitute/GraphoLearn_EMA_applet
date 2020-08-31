@@ -15,15 +15,46 @@
   "repronim:timeUnit": "yearmonthdate",
   "ui": {
     "order": [
-      ""
+      "play_refuse",
+      "play_skip",
+      "technical_challenges",
+      "other_programs",
+      "like",
+      "perception"
     ],
     "shuffle": false,
     "addProperties": [
       {
-        "variableName": "",
-        "isAbout": "",
+        "variableName": "play_refuse",
+        "isAbout": "play_refuse",
         "isVis": true
-      }
+      },
+      {
+        "variableName": "play_skip",
+        "isAbout": "play_skip",
+        "isVis": true
+      },
+      {
+        "variableName": "technical_challenges",
+        "isAbout": "technical_challenges",
+        "isVis": true
+      },
+      {
+        "variableName": "other_programs",
+        "isAbout": "other_programs",
+        "isVis": true
+      },
+      {
+        "variableName": "like",
+        "isAbout": "like",
+        "isVis": true
+      },
+      {
+        "variableName": "perception",
+        "isAbout": "perception",
+        "isVis": true
+      },
+      
     ],
     "allow": []
   }

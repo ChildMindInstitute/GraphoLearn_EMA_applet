@@ -16,7 +16,13 @@
   "ui": {
     "order": [
       "play_time",
-      "play_engagement"
+      "play_engagement",
+      "play_distractions",
+      "physical_health",
+      "sleep",
+      "play_involvement",
+      "play_applications",
+      "comments"
     ],
     "shuffle": false,
     "addProperties": [
@@ -28,6 +34,36 @@
       {
         "variableName": "play_engagement",
         "isAbout": "play_engagement",
+        "isVis": true
+      },
+      {
+        "variableName": "play_distractions",
+        "isAbout": "play_distractions",
+        "isVis": true
+      },
+      {
+        "variableName": "physical_health",
+        "isAbout": "physical_health",
+        "isVis": true
+      },
+      {
+        "variableName": "sleep",
+        "isAbout": "sleep",
+        "isVis": true
+      },
+      {
+        "variableName": "play_involvement",
+        "isAbout": "play_involvement",
+        "isVis": true
+      },
+      {
+        "variableName": "play_applications",
+        "isAbout": "play_applications",
+        "isVis": true
+      },
+      {
+        "variableName": "comments",
+        "isAbout": "comments",
         "isVis": true
       }
     ],

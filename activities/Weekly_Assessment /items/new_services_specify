@@ -3,36 +3,34 @@
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
     "@type": "reproschema:Field",
-    "@id": "play_time",
+    "@id": "new_services_specify",
     "ui": {
-        "inputType": "slider"
+        "inputType": "radio",
+        "allow": [
+            "autoAdvance"
+        ]
     },
-    "question": "How much did your child play the game today (in minutes)?",
+    "question": "Please specify:",
     "responseOptions": {
         "choices": [
             {
                 "schema:value": 0,
-                "schema:name": "0",
+                "schema:name": "private tutoring for reading",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 5,
-                "schema:name": "5",
+                "schema:value": 1,
+                "schema:name": "speech therapy",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 10,
-                "schema:name": "10",
+                "schema:value": 2,
+                "schema:name": "additional reading education through school",
                 "@type": "schema:option"
             },
             {
-                "schema:value": 15,
-                "schema:name": "15",
-                "@type": "schema:option"
-            },
-            {
-                "schema:value": 20,
-                "schema:name": "20",
+                "schema:value": 3,
+                "schema:name": "other",
                 "@type": "schema:option"
             }
         ]
