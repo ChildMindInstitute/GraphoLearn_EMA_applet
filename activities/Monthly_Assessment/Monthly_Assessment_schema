@@ -4,9 +4,9 @@
     "https://raw.githubusercontent.com/charlie42/GraphoLearn_EMA_applet/test/activities/Monthly_Assessment/Monthly_Assessment_context"  
   ],
   "@type": "reproschema:Activity",
-  "@id": "Monthly Assessment",
+  "@id": "Monthly_Assessment_schema",
   "skos:prefLabel": "Monthly Assessment",
-  "skos:altLabel": "Monthly Assessment",
+  "skos:altLabel": "Monthly_Assessment_schema",
   "schema:description": "A description can go here",
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
