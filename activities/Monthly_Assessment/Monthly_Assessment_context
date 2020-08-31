@@ -5,6 +5,6 @@
       "@id": "Monthly Assessment:",
       "@type": "@id"
     },
-    "Monthly Assessment": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/activities/Monthly_Assessment/items/"
+    "Monthly_Assessment": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/activities/Monthly_Assessment/items/"
   }
 }

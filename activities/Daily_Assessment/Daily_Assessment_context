@@ -1,10 +1,14 @@
 {
   "@context": {
     "@version": 1.1,
-    "": {
-      "@id": "Daily Assessment:",
+    "play_time": {
+      "@id": "Daily_Assessment:play_time",
       "@type": "@id"
     },
-    "Daily Assessment": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/activities/Daily_Assessment/items/"
+    "play_engagement": {
+      "@id": "Daily_Assessment:play_engagement",
+      "@type": "@id"
+    },
+    "Daily_Assessment": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/activities/Daily_Assessment/items/"
   }
 }

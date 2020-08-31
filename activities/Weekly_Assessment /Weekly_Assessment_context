@@ -5,6 +5,6 @@
       "@id": "Weekly Assessment :",
       "@type": "@id"
     },
-    "Weekly Assessment ": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/activities/Weekly_Assessment/items/"
+    "Weekly_Assessment": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/activities/Weekly_Assessment/items/"
   }
 }

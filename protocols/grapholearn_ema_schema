@@ -13,28 +13,28 @@
   "ui": {
     "addProperties": [
       {
-        "variableName": "Daily_Assessment_schema",
-        "isAbout": "Daily_Assessment_schema",
+        "variableName": "Daily_Assessment",
+        "isAbout": "Daily_Assessment",
         "prefLabel": "Daily Assessment",
         "isVis": true
       },
       {
-        "variableName": "Weekly_Assessment _schema",
-        "isAbout": "Weekly_Assessment _schema",
+        "variableName": "Weekly_Assessment",
+        "isAbout": "Weekly_Assessment",
         "prefLabel": "Weekly Assessment ",
         "isVis": true
       },
       {
-        "variableName": "Monthly_Assessment_schema",
-        "isAbout": "Monthly_Assessment_schema",
+        "variableName": "Monthly_Assessment",
+        "isAbout": "Monthly_Assessment",
         "prefLabel": "Monthly Assessment",
         "isVis": true
       }
     ],
     "order": [
-      "Daily Assessment",
-      "Weekly Assessment ",
-      "Monthly Assessment"
+      "Daily_Assessment",
+      "Weekly_Assessment ",
+      "Monthly_Assessment"
     ],
     "shuffle": false
   }

@@ -4,9 +4,9 @@
     "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/activities/Daily_Assessment/Daily_Assessment_context"  
   ],
   "@type": "reproschema:Activity",
-  "@id": "Daily Assessment",
+  "@id": "Daily_Assessment_schema",
   "skos:prefLabel": "Daily Assessment",
-  "skos:altLabel": "Daily Assessment",
+  "skos:altLabel": "Daily_Assessment_schema",
   "schema:description": "A description can go here",
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
@@ -15,55 +15,19 @@
   "repronim:timeUnit": "yearmonthdate",
   "ui": {
     "order": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "play_time",
+      "play_engagement"
     ],
     "shuffle": false,
     "addProperties": [
       {
-        "variableName": "",
-        "isAbout": "",
+        "variableName": "play_time",
+        "isAbout": "play_time",
         "isVis": true
       },
       {
-        "variableName": "",
-        "isAbout": "",
-        "isVis": true
-      },
-      {
-        "variableName": "",
-        "isAbout": "",
-        "isVis": true
-      },
-      {
-        "variableName": "",
-        "isAbout": "",
-        "isVis": true
-      },
-      {
-        "variableName": "",
-        "isAbout": "",
-        "isVis": true
-      },
-      {
-        "variableName": "",
-        "isAbout": "",
-        "isVis": true
-      },
-      {
-        "variableName": "",
-        "isAbout": "",
-        "isVis": true
-      },
-      {
-        "variableName": "",
-        "isAbout": "",
+        "variableName": "play_engagement",
+        "isAbout": "play_engagement",
         "isVis": true
       }
     ],
