@@ -6,7 +6,7 @@
       "@id": "activity_path:Daily_Assessment/Daily_Assessment_schema",
       "@type": "@id"
     },
-    "Weekly Assessment ": {
+    "Weekly Assessment": {
       "@id": "activity_path:Weekly_Assessment/Weekly_Assessment_schema",
       "@type": "@id"
     },
