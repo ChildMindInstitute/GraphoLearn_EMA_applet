@@ -15,19 +15,19 @@
       {
         "variableName": "Daily_Assessment",
         "isAbout": "Daily_Assessment",
-        "prefLabel": "Daily Assessment",
+        "prefLabel": "Daily_Assessment",
         "isVis": true
       },
       {
         "variableName": "Weekly_Assessment",
         "isAbout": "Weekly_Assessment",
-        "prefLabel": "Weekly Assessment",
+        "prefLabel": "Weekly_Assessment",
         "isVis": true
       },
       {
         "variableName": "Monthly_Assessment",
         "isAbout": "Monthly_Assessment",
-        "prefLabel": "Monthly Assessment",
+        "prefLabel": "Monthly_Assessment",
         "isVis": true
       }
     ],

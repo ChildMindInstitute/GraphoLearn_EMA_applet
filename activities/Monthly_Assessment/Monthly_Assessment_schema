@@ -5,7 +5,7 @@
   ],
   "@type": "reproschema:Activity",
   "@id": "Monthly_Assessment_schema",
-  "skos:prefLabel": "Monthly Assessment",
+  "skos:prefLabel": "Monthly_Assessment",
   "skos:altLabel": "Monthly_Assessment_schema",
   "schema:description": "A description can go here",
   "schema:schemaVersion": "0.0.1",

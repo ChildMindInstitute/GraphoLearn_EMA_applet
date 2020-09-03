@@ -5,7 +5,7 @@
   ],
   "@type": "reproschema:Activity",
   "@id": "Weekly_Assessment_schema",
-  "skos:prefLabel": "Weekly Assessment",
+  "skos:prefLabel": "Weekly_Assessment",
   "skos:altLabel": "Weekly_Assessment_schema",
   "schema:description": "A description can go here ",
   "schema:schemaVersion": "0.0.1",
