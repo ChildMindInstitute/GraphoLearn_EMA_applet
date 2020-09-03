@@ -33,6 +33,6 @@
       "@id": "Daily_Assessment:comments",
       "@type": "@id"
     },
-    "Daily Assessment": "https://raw.githubusercontent.com/charlie42/GraphoLearn_EMA_applet/test/activities/Daily_Assessment/items/"
+    "Daily_Assessment": "https://raw.githubusercontent.com/charlie42/GraphoLearn_EMA_applet/test/activities/Daily_Assessment/items/"
   }
 }
