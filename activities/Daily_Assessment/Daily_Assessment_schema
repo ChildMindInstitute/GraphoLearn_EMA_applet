@@ -5,7 +5,7 @@
   ],
   "@type": "reproschema:Activity",
   "@id": "Daily_Assessment_schema",
-  "skos:prefLabel": "Daily Assessment",
+  "skos:prefLabel": "Daily_Assessment",
   "skos:altLabel": "Daily_Assessment_schema",
   "schema:description": "A description can go here",
   "schema:schemaVersion": "0.0.1",
