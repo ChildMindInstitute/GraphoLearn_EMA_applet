@@ -1,0 +1,42 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "sleep",
+    "ui": {
+        "inputType": "slider"
+    },
+    "question": "\r\n\r\nHow was your child’s sleep last night?",
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 0,
+                "schema:name": "0",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 1,
+                "schema:name": "5",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "10",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "15",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "20",
+                "@type": "schema:option"
+            }
+        ],
+        "schema:minValue": "Not good",
+        "schema:maxValue": "Very good"
+    }
+}

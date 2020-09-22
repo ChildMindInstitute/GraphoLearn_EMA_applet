@@ -1,0 +1,27 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json",
+    "https://raw.githubusercontent.com/YOUR-PROTOCOL-CONTEXT-FILE"
+  ],
+  "@type": "reproschema:Protocol",
+  "@id": "Intervention Study App_schema",
+  "skos:prefLabel": "Intervention Study App",
+  "schema:description": "This is Intervention Study app",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "landingPage": "This is Intervention Study app",
+  "ui": {
+    "addProperties": [
+      {
+        "variableName": "Daily Intervention Log_schema",
+        "isAbout": "Daily Intervention Log_schema",
+        "prefLabel": "Daily Intervention Log",
+        "isVis": true
+      }
+    ],
+    "order": [
+      "Daily Intervention Log"
+    ],
+    "shuffle": false
+  }
+}

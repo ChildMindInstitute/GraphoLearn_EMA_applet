@@ -1,0 +1,11 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "skos:altLabel": "challenge_observation",
+    "ui": {
+        "inputType": "text"
+    },
+    "question": "Please comment on any challenges or observations today, whether positive or negative."
+}
