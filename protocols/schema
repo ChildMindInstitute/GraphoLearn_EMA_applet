@@ -1,7 +1,7 @@
 {
   "@context": [
-    "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json",
-    "https://raw.githubusercontent.com/YOUR-PROTOCOL-CONTEXT-FILE"
+    "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/daster/protocols/context"
   ],
   "@type": "reproschema:Protocol",
   "@id": "Intervention Study App_schema",

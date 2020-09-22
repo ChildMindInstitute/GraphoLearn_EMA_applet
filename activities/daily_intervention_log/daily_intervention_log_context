@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "game": {
+      "@id": "daily_intervention_log:game",
+      "@type": "@id"
+    },
+    "playing": {
+      "@id": "daily_intervention_log:playing",
+      "@type": "@id"
+    },
+    "home_environment": {
+      "@id": "daily_intervention_log:home_environment",
+      "@type": "@id"
+    },
+    "physical_health": {
+      "@id": "daily_intervention_log:physical_health",
+      "@type": "@id"
+    },
+    "sleep": {
+      "@id": "daily_intervention_log:sleep",
+      "@type": "@id"
+    },
+    "game_involved": {
+      "@id": "daily_intervention_log:game_involved",
+      "@type": "@id"
+    },
+    "game_activity": {
+      "@id": "daily_intervention_log:game_activity",
+      "@type": "@id"
+    },
+    "challenge_observation": {
+      "@id": "daily_intervention_log:challenge_observation",
+      "@type": "@id"
+    },
+    "math_programs": {
+      "@id": "daily_intervention_log:math_programs",
+      "@type": "@id"
+    },
+    "programs_activities": {
+      "@id": "daily_intervention_log:programs_activities",
+      "@type": "@id"
+    },
+    "daily_intervention_log": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/daster/activities/daily_intervention_log/items/"
+  }
+}
