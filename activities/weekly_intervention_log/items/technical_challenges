@@ -3,11 +3,11 @@
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
     "@type": "reproschema:Field",
-    "@id": "game",
+    "@id": "technical_challenges",
     "ui": {
         "inputType": "slider"
     },
-    "question": "\r\n\r\nHow much did your child play the game today (in minutes)?",
+    "question": "\r\n\r\nHow many technical challenges did your child have this week (e.g. moving the mouse, internet connection)?",
     "responseOptions": {
         "choices": [
             {
@@ -17,26 +17,26 @@
             },
             {
                 "schema:value": 1,
-                "schema:name": "5",
+                "schema:name": "1",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": "10",
+                "schema:name": "2",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 3,
-                "schema:name": "15",
+                "schema:name": "3",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 4,
-                "schema:name": "20",
+                "schema:name": "4",
                 "@type": "schema:option"
             }
         ],
-        "schema:minValue": "Not at all",
-        "schema:maxValue": "Daily limit"
+        "schema:minValue": "None",
+        "schema:maxValue": "Quite a few"
     }
 }
