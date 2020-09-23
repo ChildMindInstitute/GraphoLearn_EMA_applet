@@ -15,43 +15,13 @@
   "repronim:timeUnit": "yearmonthdate",
   "ui": {
     "order": [
-      "refuse_game",
-      "skip_playing",
-      "technical_challenges",
-      "reading_programs",
-      "like_game",
-      "game_perspection"
+      "refuse_game"
     ],
     "shuffle": false,
     "addProperties": [
       {
         "variableName": "refuse_game",
         "isAbout": "refuse_game",
-        "isVis": true
-      },
-      {
-        "variableName": "skip_playing",
-        "isAbout": "skip_playing",
-        "isVis": true
-      },
-      {
-        "variableName": "technical_challenges",
-        "isAbout": "technical_challenges",
-        "isVis": true
-      },
-      {
-        "variableName": "reading_programs",
-        "isAbout": "reading_programs",
-        "isVis": true
-      },
-      {
-        "variableName": "like_game",
-        "isAbout": "like_game",
-        "isVis": true
-      },
-      {
-        "variableName": "game_perspection",
-        "isAbout": "game_perspection",
         "isVis": true
       }
     ],
