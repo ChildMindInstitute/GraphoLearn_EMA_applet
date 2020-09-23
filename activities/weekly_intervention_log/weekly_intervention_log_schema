@@ -1,13 +1,13 @@
 {
   "@context": [
     "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-    "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/daster/activities/daily_intervention_log/daily_intervention_log_context"
+    "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/daster/activities/weekly_intervention_log/weekly_intervention_log_context"
   ],
   "@type": "reproschema:Activity",
   "@id": "weekly_intervention_log_schema",
-  "skos:prefLabel": "Daily Intervention Log",
-  "skos:altLabel": "Daily Intervention Log",
-  "schema:description": "In this activity, you will answer questions about your child’s experience with the game today, his/her/their health and about your involvement in his/her/their game play and other activities.   You will fill this survey out every day.",
+  "skos:prefLabel": "Weekly Intervention Log",
+  "skos:altLabel": "Weekly Intervention Log",
+  "schema:description": "In this activity, you will answer questions about you and your child's experience with the game and other activities over the past week. You will fill this out every week.",
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
   "preamble": "",
@@ -15,67 +15,43 @@
   "repronim:timeUnit": "yearmonthdate",
   "ui": {
     "order": [
-      "game",
-      "playing",
-      "home_environment",
-      "physical_health",
-      "sleep",
-      "game_involved",
-      "game_activity",
-      "challenge_observation",
-      "math_programs",
-      "programs_activities"
+      "refuse_game",
+      "skip_playing",
+      "technical_challenges",
+      "reading_programs",
+      "like_game",
+      "game_perspection"
     ],
     "shuffle": false,
     "addProperties": [
       {
-        "variableName": "game",
-        "isAbout": "game",
+        "variableName": "refuse_game",
+        "isAbout": "refuse_game",
         "isVis": true
       },
       {
-        "variableName": "playing",
-        "isAbout": "playing",
+        "variableName": "skip_playing",
+        "isAbout": "skip_playing",
         "isVis": true
       },
       {
-        "variableName": "home_environment",
-        "isAbout": "home_environment",
+        "variableName": "technical_challenges",
+        "isAbout": "technical_challenges",
         "isVis": true
       },
       {
-        "variableName": "physical_health",
-        "isAbout": "physical_health",
+        "variableName": "reading_programs",
+        "isAbout": "reading_programs",
         "isVis": true
       },
       {
-        "variableName": "sleep",
-        "isAbout": "sleep",
+        "variableName": "like_game",
+        "isAbout": "like_game",
         "isVis": true
       },
       {
-        "variableName": "game_involved",
-        "isAbout": "game_involved",
-        "isVis": true
-      },
-      {
-        "variableName": "game_activity",
-        "isAbout": "game_activity",
-        "isVis": true
-      },
-      {
-        "variableName": "challenge_observation",
-        "isAbout": "challenge_observation",
-        "isVis": true
-      },
-      {
-        "variableName": "math_programs",
-        "isAbout": "math_programs",
-        "isVis": true
-      },
-      {
-        "variableName": "programs_activities",
-        "isAbout": "programs_activities",
+        "variableName": "game_perspection",
+        "isAbout": "game_perspection",
         "isVis": true
       }
     ],
