@@ -17,10 +17,17 @@
         "isAbout": "Daily Intervention Log_schema",
         "prefLabel": "Daily Intervention Log",
         "isVis": true
+      },
+      {
+        "variableName": "weekly_intervention_log",
+        "isAbout": "Weekly Intervention Log_schema",
+        "prefLabel": "Weekly Intervention Log",
+        "isVis": true
       }
     ],
     "order": [
-      "daily_intervention_log"
+      "daily_intervention_log",
+      "weekly_intervention_log"
     ],
     "shuffle": false
   }
