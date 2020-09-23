@@ -23,8 +23,8 @@
       "game_involved",
       "game_activity",
       "challenge_observation",
-      "math_programs",
-      "programs_activities"
+      "programs_activities",
+      "math_programs"
     ],
     "shuffle": false,
     "addProperties": [
@@ -69,13 +69,13 @@
         "isVis": true
       },
       {
-        "variableName": "math_programs",
-        "isAbout": "math_programs",
-        "isVis": true
-      },
-      {
         "variableName": "programs_activities",
         "isAbout": "programs_activities",
+        "isVis": true
+      }
+      {
+        "variableName": "math_programs",
+        "isAbout": "math_programs",
         "isVis": true
       }
     ],

@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+  ],
+  "@type": "reproschema:Field",
+  "@id": "receiving_services",
+  "ui": {
+    "inputType": "radio",
+    "allow": [
+      "autoAdvance"
+    ]
+  },
+  "question": "\r\n\r\nHas your child started receiving any new services in the past week for reading or language?",
+  "responseOptions": {
+    "choices": [
+      {
+        "schema:value": 1,
+        "schema:name": "Yes",
+        "@type": "schema:option",
+      },
+      {
+        "schema:value": 2,
+        "schema:name": "No",
+        "@type": "schema:option",
+      }
+    ]
+  }
+}

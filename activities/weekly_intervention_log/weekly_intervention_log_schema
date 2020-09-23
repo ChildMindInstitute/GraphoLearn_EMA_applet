@@ -10,9 +10,7 @@
   "schema:description": "In this activity, you will answer questions about you and your child's experience with the game and other activities over the past week. You will fill this out every week.",
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
-  "preamble": "",
   "scoringLogic": {},
-  "repronim:timeUnit": "yearmonthdate",
   "ui": {
     "order": [
       "refuse_game",
@@ -20,7 +18,9 @@
       "technical_challenges",
       "reading_programs",
       "like_game",
-      "game_perspection"
+      "game_perspection",
+      "receiving_services",
+      "service_types"
     ],
     "shuffle": false,
     "addProperties": [
@@ -53,6 +53,16 @@
         "variableName": "game_perspection",
         "isAbout": "game_perspection",
         "isVis": true
+      },
+      {
+        "variableName": "receiving_services",
+        "isAbout": "receiving_services",
+        "isVis": true
+      },
+      {
+        "variableName": "service_types",
+        "isAbout": "service_types",
+        "isVis": "receiving_services == 1"
       }
     ],
     "allow": []

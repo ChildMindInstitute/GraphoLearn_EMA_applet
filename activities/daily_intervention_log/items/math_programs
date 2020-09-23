@@ -7,7 +7,7 @@
     "ui": {
         "inputType": "slider"
     },
-    "question": "\r\n\r\nHow much other reading and math programs/activities (online and offline) did your child engage in today?",
+    "question": "\r\n\r\nHow many other math programs/activities (online and offline) did your child engage in today?",
     "responseOptions": {
         "choices": [
             {
