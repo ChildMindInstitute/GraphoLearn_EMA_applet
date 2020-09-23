@@ -14,22 +14,22 @@
       {
         "schema:value": 1,
         "schema:name": "Private tutoring for reading",
-        "@type": "schema:option",
+        "@type": "schema:option"
       },
       {
         "schema:value": 2,
         "schema:name": "Speech therapy",
-        "@type": "schema:option",
+        "@type": "schema:option"
       },
       {
         "schema:value": 3,
         "schema:name": "Additional reading education through school",
-        "@type": "schema:option",
+        "@type": "schema:option"
       },
       {
         "schema:value": 4,
         "schema:name": "Other",
-        "@type": "schema:option",
+        "@type": "schema:option"
       }
     ]
   }
