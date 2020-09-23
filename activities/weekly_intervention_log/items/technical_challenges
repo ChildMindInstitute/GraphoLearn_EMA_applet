@@ -37,6 +37,6 @@
             }
         ],
         "schema:minValue": "None",
-        "schema:maxValue": "Quite a few"
+        "schema:maxValue": "Quite a few
     }
 }
