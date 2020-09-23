@@ -7,7 +7,7 @@
       "@type": "@id"
     },
     "weekly_intervention_log": {
-      "@id": "activity_path:weekly_intervention_log/weekly_intervention_log_schema",
+      "@id": "activity_path:daily_intervention_log/daily_intervention_log_schema",
       "@type": "@id"
     }
   }
