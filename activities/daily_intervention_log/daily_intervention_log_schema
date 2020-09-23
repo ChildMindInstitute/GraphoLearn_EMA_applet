@@ -7,7 +7,7 @@
   "@id": "daily_intervention_log_schema",
   "skos:prefLabel": "Daily Intervention Log",
   "skos:altLabel": "Daily Intervention Log",
-  "schema:description": "You will fill this survey out every day.",
+  "schema:description": "In this activity, you will answer questions about your child’s experience with the game today, his/her/their health and about your involvement in his/her/their game play and other activities.   You will fill this survey out every day.",
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
   "preamble": "",
