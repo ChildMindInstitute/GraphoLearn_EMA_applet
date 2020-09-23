@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-    "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/daster/activities/daily_intervention_log/daily_intervention_log_context"
+    "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/activities/daily_intervention_log/daily_intervention_log_context"
   ],
   "@type": "reproschema:Activity",
   "@id": "daily_intervention_log_schema",

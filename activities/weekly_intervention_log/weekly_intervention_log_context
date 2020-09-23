@@ -33,6 +33,6 @@
       "@id": "weekly_intervention_log:service_types",
       "@type": "@id"
     },
-    "weekly_intervention_log": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/daster/activities/weekly_intervention_log/items/"
+    "weekly_intervention_log": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/activities/weekly_intervention_log/items/"
   }
 }
