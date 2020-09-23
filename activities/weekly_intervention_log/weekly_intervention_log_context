@@ -1,0 +1,38 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "refuse_game": {
+      "@id": "weekly_intervention_log:refuse_game",
+      "@type": "@id"
+    },
+    "skip_playing": {
+      "@id": "weekly_intervention_log:skip_playing",
+      "@type": "@id"
+    },
+    "technical_challenges": {
+      "@id": "weekly_intervention_log:technical_challenges",
+      "@type": "@id"
+    },
+    "reading_programs": {
+      "@id": "weekly_intervention_log:reading_programs",
+      "@type": "@id"
+    },
+    "like_game": {
+      "@id": "weekly_intervention_log:like_game",
+      "@type": "@id"
+    },
+    "game_perspection": {
+      "@id": "weekly_intervention_log:game_perspection",
+      "@type": "@id"
+    },
+    "receiving_services": {
+      "@id": "weekly_intervention_log:receiving_services",
+      "@type": "@id"
+    },
+    "service_types": {
+      "@id": "weekly_intervention_log:service_types",
+      "@type": "@id"
+    },
+    "weekly_intervention_log": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/activities/weekly_intervention_log/items/"
+  }
+}

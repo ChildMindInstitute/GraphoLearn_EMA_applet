@@ -1,0 +1,70 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/activities/weekly_intervention_log/weekly_intervention_log_context"
+  ],
+  "@type": "reproschema:Activity",
+  "@id": "weekly_intervention_log_schema",
+  "skos:prefLabel": "Weekly Intervention Log",
+  "skos:altLabel": "Weekly Intervention Log",
+  "schema:description": "In this activity, you will answer questions about you and your child's experience with the game and other activities over the past week. You will fill this out every week.",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "scoringLogic": {},
+  "ui": {
+    "order": [
+      "refuse_game",
+      "skip_playing",
+      "technical_challenges",
+      "reading_programs",
+      "like_game",
+      "game_perspection",
+      "receiving_services",
+      "service_types"
+    ],
+    "shuffle": false,
+    "addProperties": [
+      {
+        "variableName": "refuse_game",
+        "isAbout": "refuse_game",
+        "isVis": true
+      },
+      {
+        "variableName": "skip_playing",
+        "isAbout": "skip_playing",
+        "isVis": true
+      },
+      {
+        "variableName": "technical_challenges",
+        "isAbout": "technical_challenges",
+        "isVis": true
+      },
+      {
+        "variableName": "reading_programs",
+        "isAbout": "reading_programs",
+        "isVis": true
+      },
+      {
+        "variableName": "like_game",
+        "isAbout": "like_game",
+        "isVis": true
+      },
+      {
+        "variableName": "game_perspection",
+        "isAbout": "game_perspection",
+        "isVis": true
+      },
+      {
+        "variableName": "receiving_services",
+        "isAbout": "receiving_services",
+        "isVis": true
+      },
+      {
+        "variableName": "service_types",
+        "isAbout": "service_types",
+        "isVis": "receiving_services == 1"
+      }
+    ],
+    "allow": []
+  }
+}

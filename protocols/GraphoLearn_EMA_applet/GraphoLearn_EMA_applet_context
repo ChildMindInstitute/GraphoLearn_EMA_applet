@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "activity_path": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/activities/",
+    "daily_intervention_log": {
+      "@id": "activity_path:daily_intervention_log/daily_intervention_log_schema",
+      "@type": "@id"
+    },
+    "weekly_intervention_log": {
+      "@id": "activity_path:weekly_intervention_log/weekly_intervention_log_schema",
+      "@type": "@id"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+  ],
+  "@type": "reproschema:Field",
+  "@id": "game",
+  "ui": {
+    "inputType": "radio",
+    "allow": [
+      "autoAdvance"
+    ]
+  },
+  "question": "\r\n\r\nHow much did your child play the game today (in minutes)?",
+  "responseOptions": {
+    "choices": [
+        {
+            "schema:value": 0,
+            "schema:name": "0 mins",
+            "@type": "schema:option"
+        },
+        {
+            "schema:value": 1,
+            "schema:name": "5 mins",
+            "@type": "schema:option"
+        },
+        {
+            "schema:value": 2,
+            "schema:name": "10 mins",
+            "@type": "schema:option"
+        },
+        {
+            "schema:value": 3,
+            "schema:name": "15 mins",
+            "@type": "schema:option"
+        },
+        {
+            "schema:value": 4,
+            "schema:name": "20 mins",
+            "@type": "schema:option"
+        }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/protocols/GraphoLearn_EMA_applet/GraphoLearn_EMA_applet_context"
+  ],
+  "@type": "reproschema:Protocol",
+  "@id": "GraphoLearn_EMA_applet_schema",
+  "skos:prefLabel": "GraphoLearn EMA applet",
+  "schema:description": "In this set of activities we will be asking you questions about the online intervention that your child is participating in. Questions within these activities will range from daily, weekly and others asked only once. It’s important that you fill these out to the best of your ability each day/week.",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "landingPage": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/README.md",
+  "ui": {
+    "addProperties": [
+      {
+        "variableName": "daily_intervention_log",
+        "isAbout": "Daily Intervention Log_schema",
+        "prefLabel": "Daily Intervention Log",
+        "isVis": true
+      },
+      {
+        "variableName": "weekly_intervention_log",
+        "isAbout": "Weekly Intervention Log_schema",
+        "prefLabel": "Weekly Intervention Log",
+        "isVis": true
+      }
+    ],
+    "order": [
+      "daily_intervention_log",
+      "weekly_intervention_log"
+    ],
+    "shuffle": false
+  }
+}
