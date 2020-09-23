@@ -7,7 +7,7 @@
     "ui": {
         "inputType": "slider"
     },
-    "question": "\r\n\r\How engaged was your child while playing today?",
+    "question": "\r\n\r\nHow engaged was your child while playing today?",
     "responseOptions": {
         "choices": [
             {

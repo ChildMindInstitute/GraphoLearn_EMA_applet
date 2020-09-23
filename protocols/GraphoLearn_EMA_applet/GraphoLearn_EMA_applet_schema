@@ -6,7 +6,7 @@
   "@type": "reproschema:Protocol",
   "@id": "GraphoLearn_EMA_applet_schema",
   "skos:prefLabel": "GraphoLearn EMA applet",
-  "schema:description": "In this set of activities we will be asking you some questions about the online intervention that your child is participating in. Some of the applets will involve daily questions, some weekly questions and some questions will only be asked once. It’s important that you fill these out to the best of your ability each day/week so we can track your child’s interactions with the intervention games and other aspects of their schooling, environment and general health. Each applet should take five minutes or less to complete",
+  "schema:description": "In this set of activities we will be asking you questions about the online intervention that your child is participating in. Questions within these activities will range from daily, weekly and others asked only once. It’s important that you fill these out to the best of your ability each day/week.",
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
   "landingPage": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/daster/README.md",

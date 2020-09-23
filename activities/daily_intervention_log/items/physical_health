@@ -7,7 +7,7 @@
     "ui": {
         "inputType": "slider"
     },
-    "question": "\r\n\r\How is your child’s physical health today?",
+    "question": "\r\n\r\nHow is your child’s physical health today?",
     "responseOptions": {
         "choices": [
             {
