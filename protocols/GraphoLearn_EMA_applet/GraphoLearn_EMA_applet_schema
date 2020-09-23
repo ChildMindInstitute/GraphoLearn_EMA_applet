@@ -1,15 +1,15 @@
 {
   "@context": [
     "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-    "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/daster/protocols/intervention_study_app/intervention_study_app_context"
+    "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/daster/protocols/GraphoLearn_EMA_applet/GraphoLearn_EMA_applet_context"
   ],
   "@type": "reproschema:Protocol",
-  "@id": "intervention_study_app_schema",
-  "skos:prefLabel": "Intervention Study App",
+  "@id": "GraphoLearn_EMA_applet_schema",
+  "skos:prefLabel": "GraphoLearn EMA applet",
   "schema:description": "This is Intervention Study app",
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
-  "landingPage": "This is Intervention Study app",
+  "landingPage": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/daster/README.md",
   "ui": {
     "addProperties": [
       {
