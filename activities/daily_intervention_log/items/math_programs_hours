@@ -20,7 +20,7 @@
             },
             {
                 "schema:value": 2,
-                "schema:name": "20 min,
+                "schema:name": "20 min",
                 "@type": "schema:option"
             },
             {
