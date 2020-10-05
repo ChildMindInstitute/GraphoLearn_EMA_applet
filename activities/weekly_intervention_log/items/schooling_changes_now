@@ -3,54 +3,45 @@
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
     "@type": "reproschema:Field",
-    "@id": "technical_challenges",
+    "@id": "schooling_changes_now",
     "ui": {
         "inputType": "radio",
         "allow": [
-            "autoAdvance"
+            "dontKnow"
         ]
     },
-    "question": "\r\n\r\nDid your child have any of the following technical challenges this week?",
+    "question": "\r\n\r\nWhat is that change?",
     "responseOptions": {
+        "multipleChoice": true,
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": "Operating the tablet",
+                "schema:name": "In person",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": "Internet",
+                "schema:name": "Homeschool",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 3,
-                "schema:name": "Interruption of play",
+                "schema:name": "Hybrid",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 4,
-                "schema:name": "Clicking",
+                "schema:name": "Fully remote",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 5,
-                "schema:name": "Freezing",
+                "schema:name": "Public",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 6,
-                "schema:name": "Speed",
-                "@type": "schema:option"
-            },
-            {
-                "schema:value": 7,
-                "schema:name": "Audio quality",
-                "@type": "schema:option"
-            },
-            {
-                "schema:value": 8,
-                "schema:name": "Other",
+                "schema:name": "Private",
                 "@type": "schema:option"
             }
         ]

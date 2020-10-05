@@ -5,38 +5,24 @@
     "@type": "reproschema:Field",
     "@id": "math_programs",
     "ui": {
-        "inputType": "slider"
+        "inputType": "radio",
+        "allow": [
+            "autoAdvance"
+        ]
     },
-    "question": "\r\n\r\nHow many other math programs/activities (online and offline) did your child engage in today?",
+    "question": "\r\n\r\nDid your child engage in any other math activities today [e.g., math games or a math lesson]?",
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 0,
-                "schema:name": "0",
-                "@type": "schema:option"
-            },
-            {
                 "schema:value": 1,
-                "schema:name": "1",
+                "schema:name": "Yes",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": "2",
-                "@type": "schema:option"
-            },
-            {
-                "schema:value": 3,
-                "schema:name": "3",
-                "@type": "schema:option"
-            },
-            {
-                "schema:value": 4,
-                "schema:name": "4",
+                "schema:name": "No",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "None",
-        "schema:maxValue": "Many"
+        ]
     }
 }

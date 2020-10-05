@@ -3,14 +3,14 @@
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
     "@type": "reproschema:Field",
-    "@id": "programs_activities",
+    "@id": "reinforce_aspect",
     "ui": {
         "inputType": "radio",
         "allow": [
             "autoAdvance"
         ]
     },
-    "question": "\r\n\r\nDid your child engage in any other reading activities today [e.g., reading a book, engaging in an online reading activity]?",
+    "question": "\r\n\r\nDid you reinforce any aspect of the child’s ( e.g., take lessons from the game and apply in real life, such as point out the sounds in words or engage in a counting game)?",
     "responseOptions": {
         "choices": [
             {

@@ -3,40 +3,37 @@
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
     "@type": "reproschema:Field",
-    "@id": "playing",
+    "@id": "physical_health_concerns",
     "ui": {
-        "inputType": "slider"
+        "inputType": "radio",
+        "allow": [
+            "dontKnow"
+        ]
     },
-    "question": "\r\n\r\nHow engaged was your child while playing today?",
+    "question": "\r\n\r\nWhat were the concerns?",
     "responseOptions": {
+        "multipleChoice": true,
         "choices": [
             {
-                "schema:value": 0,
-                "schema:name": "0",
-                "@type": "schema:option"
-            },
-            {
                 "schema:value": 1,
-                "schema:name": "1",
+                "schema:name": "Cold/flu",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": "2",
+                "schema:name": "Stomach ache",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 3,
-                "schema:name": "3",
+                "schema:name": "Injury",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 4,
-                "schema:name": "4",
+                "schema:name": "Other",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "Not at all",
-        "schema:maxValue": "Very engaged"
+        ]
     }
 }

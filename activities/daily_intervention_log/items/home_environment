@@ -37,6 +37,6 @@
             }
         ],
         "schema:minValue": "Not at all",
-        "schema:maxValue": "Very much"
+        "schema:maxValue": "Very distracting"
     }
 }

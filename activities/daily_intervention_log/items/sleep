@@ -5,38 +5,24 @@
     "@type": "reproschema:Field",
     "@id": "sleep",
     "ui": {
-        "inputType": "slider"
+        "inputType": "radio",
+        "allow": [
+            "autoAdvance"
+        ]
     },
-    "question": "\r\n\r\nHow was your child’s sleep last night?",
+    "question": "\r\n\r\nDid your child have any difficulties getting to sleep or staying asleep last night?",
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 0,
-                "schema:name": "0",
-                "@type": "schema:option"
-            },
-            {
                 "schema:value": 1,
-                "schema:name": "5",
+                "schema:name": "Yes",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": "10",
-                "@type": "schema:option"
-            },
-            {
-                "schema:value": 3,
-                "schema:name": "15",
-                "@type": "schema:option"
-            },
-            {
-                "schema:value": 4,
-                "schema:name": "20",
+                "schema:name": "No",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "Not good",
-        "schema:maxValue": "Very good"
+        ]
     }
 }

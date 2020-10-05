@@ -5,7 +5,10 @@
     "@type": "reproschema:Field",
     "skos:altLabel": "challenge_observation",
     "ui": {
-        "inputType": "text"
+        "inputType": "text",
+        "allow": [
+            "dontKnow"
+        ]
     },
-    "question": "Please comment on any challenges or observations today, whether positive or negative."
+    "question": "Please comment on any challenges or observations today ..."
 }

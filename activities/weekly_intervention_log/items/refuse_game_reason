@@ -3,40 +3,41 @@
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
     "@type": "reproschema:Field",
-    "@id": "playing",
+    "@id": "refuse_game_reason",
     "ui": {
-        "inputType": "slider"
+        "inputType": "radio",
+        "allow": [
+            "autoAdvance"
+        ]
     },
-    "question": "\r\n\r\nHow engaged was your child while playing today?",
+    "question": "\r\n\r\nWhy?",
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 0,
-                "schema:name": "0",
-                "@type": "schema:option"
-            },
-            {
                 "schema:value": 1,
-                "schema:name": "1",
+                "schema:name": "Sick",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": "2",
+                "schema:name": "No motivation",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 3,
-                "schema:name": "3",
+                "schema:name": "Tech problems",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 4,
-                "schema:name": "4",
+                "schema:name": "Vacation",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 5,
+                "schema:name": "Too many other activities (e.g., online schooling)",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "Not at all",
-        "schema:maxValue": "Very engaged"
+        ]
     }
 }

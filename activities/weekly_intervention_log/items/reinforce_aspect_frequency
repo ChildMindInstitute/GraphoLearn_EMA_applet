@@ -3,11 +3,11 @@
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
     "@type": "reproschema:Field",
-    "@id": "playing",
+    "@id": "reinforce_aspect_frequency",
     "ui": {
         "inputType": "slider"
     },
-    "question": "\r\n\r\nHow engaged was your child while playing today?",
+    "question": "\r\n\r\nHow often?",
     "responseOptions": {
         "choices": [
             {
@@ -37,6 +37,6 @@
             }
         ],
         "schema:minValue": "Not at all",
-        "schema:maxValue": "Very engaged"
+        "schema:maxValue": "Frequently"
     }
 }

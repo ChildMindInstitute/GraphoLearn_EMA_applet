@@ -3,14 +3,14 @@
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
     "@type": "reproschema:Field",
-    "@id": "programs_activities",
+    "@id": "schooling",
     "ui": {
         "inputType": "radio",
         "allow": [
             "autoAdvance"
         ]
     },
-    "question": "\r\n\r\nDid your child engage in any other reading activities today [e.g., reading a book, engaging in an online reading activity]?",
+    "question": "\r\n\r\nHas there been any change in your child’s schooling?",
     "responseOptions": {
         "choices": [
             {

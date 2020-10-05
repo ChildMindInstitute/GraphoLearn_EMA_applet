@@ -14,13 +14,20 @@
   "ui": {
     "order": [
       "refuse_game",
+      "refuse_game_days",
+      "refuse_game_reason",
       "skip_playing",
       "technical_challenges",
       "reading_programs",
+      "reinforce_aspect",
+      "reinforce_aspect_frequency",
       "like_game",
       "game_perspection",
       "receiving_services",
-      "service_types"
+      "service_types",
+      "schooling",
+      "schooling_changes",
+      "schooling_changes_now"
     ],
     "shuffle": false,
     "addProperties": [
@@ -28,6 +35,16 @@
         "variableName": "refuse_game",
         "isAbout": "refuse_game",
         "isVis": true
+      },
+      {
+        "variableName": "refuse_game_days",
+        "isAbout": "refuse_game_days",
+        "isVis": "refuse_game == 1"
+      },
+      {
+        "variableName": "refuse_game_reason",
+        "isAbout": "refuse_game_reason",
+        "isVis": "refuse_game == 1"
       },
       {
         "variableName": "skip_playing",
@@ -43,6 +60,16 @@
         "variableName": "reading_programs",
         "isAbout": "reading_programs",
         "isVis": true
+      },
+      {
+        "variableName": "reinforce_aspect",
+        "isAbout": "reinforce_aspect",
+        "isVis": true
+      },
+      {
+        "variableName": "reinforce_aspect_frequency",
+        "isAbout": "reinforce_aspect_frequency",
+        "isVis": "reinforce_aspect == 1"
       },
       {
         "variableName": "like_game",
@@ -63,6 +90,21 @@
         "variableName": "service_types",
         "isAbout": "service_types",
         "isVis": "receiving_services == 1"
+      },
+      {
+        "variableName": "schooling",
+        "isAbout": "schooling",
+        "isVis": true
+      },
+      {
+        "variableName": "schooling_changes",
+        "isAbout": "schooling_changes",
+        "isVis": true
+      },
+      {
+        "variableName": "schooling_changes_now",
+        "isAbout": "schooling_changes_now",
+        "isVis": true
       }
     ],
     "allow": []
