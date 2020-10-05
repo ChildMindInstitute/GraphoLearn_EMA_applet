@@ -17,12 +17,28 @@
       "@id": "daily_intervention_log:physical_health",
       "@type": "@id"
     },
+    "physical_health_concerns": {
+      "@id": "daily_intervention_log:physical_health_concerns",
+      "@type": "@id"
+    },
     "sleep": {
       "@id": "daily_intervention_log:sleep",
       "@type": "@id"
     },
+    "sleep_hours": {
+      "@id": "daily_intervention_log:sleep_hours",
+      "@type": "@id"
+    },
+    "sleep_difficulties": {
+      "@id": "daily_intervention_log:sleep_difficulties",
+      "@type": "@id"
+    },
     "game_involved": {
       "@id": "daily_intervention_log:game_involved",
+      "@type": "@id"
+    },
+    "game_involved_standard": {
+      "@id": "daily_intervention_log:game_involved_standard",
       "@type": "@id"
     },
     "game_activity": {
@@ -37,8 +53,16 @@
       "@id": "daily_intervention_log:math_programs",
       "@type": "@id"
     },
+    "math_programs_hours": {
+      "@id": "daily_intervention_log:math_programs_hours",
+      "@type": "@id"
+    },
     "programs_activities": {
       "@id": "daily_intervention_log:programs_activities",
+      "@type": "@id"
+    },
+    "programs_activities_hours": {
+      "@id": "daily_intervention_log:programs_activities_hours",
       "@type": "@id"
     },
     "daily_intervention_log": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/activities/daily_intervention_log/items/"

@@ -5,38 +5,24 @@
     "@type": "reproschema:Field",
     "@id": "refuse_game",
     "ui": {
-        "inputType": "slider"
+        "inputType": "radio",
+        "allow": [
+            "autoAdvance"
+        ]
     },
-    "question": "\r\n\r\nHow much did your child refuse to play the game this week?",
+    "question": "\r\n\r\nDid your child refuse to play the game on one or more days this week?",
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 0,
-                "schema:name": "0",
-                "@type": "schema:option"
-            },
-            {
                 "schema:value": 1,
-                "schema:name": "1",
+                "schema:name": "Yes",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": "2",
-                "@type": "schema:option"
-            },
-            {
-                "schema:value": 3,
-                "schema:name": "3",
-                "@type": "schema:option"
-            },
-            {
-                "schema:value": 4,
-                "schema:name": "4",
+                "schema:name": "No",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "Not at all",
-        "schema:maxValue": "Very much"
+        ]
     }
 }

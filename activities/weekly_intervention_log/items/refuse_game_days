@@ -3,18 +3,16 @@
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
     "@type": "reproschema:Field",
-    "@id": "playing",
+    "@id": "refuse_game_days",
     "ui": {
-        "inputType": "slider"
+        "inputType": "radio",
+        "allow": [
+            "autoAdvance"
+        ]
     },
-    "question": "\r\n\r\nHow engaged was your child while playing today?",
+    "question": "\r\n\r\nHow many days?",
     "responseOptions": {
         "choices": [
-            {
-                "schema:value": 0,
-                "schema:name": "0",
-                "@type": "schema:option"
-            },
             {
                 "schema:value": 1,
                 "schema:name": "1",
@@ -34,9 +32,12 @@
                 "schema:value": 4,
                 "schema:name": "4",
                 "@type": "schema:option"
+            },
+            {
+                "schema:value": 5,
+                "schema:name": "5",
+                "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "Not at all",
-        "schema:maxValue": "Very engaged"
+        ]
     }
 }

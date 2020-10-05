@@ -5,38 +5,24 @@
     "@type": "reproschema:Field",
     "@id": "physical_health",
     "ui": {
-        "inputType": "slider"
+        "inputType": "radio",
+        "allow": [
+            "autoAdvance"
+        ]
     },
-    "question": "\r\n\r\nHow is your child’s physical health today?",
+    "question": "\r\n\r\nDid your child have any physical health concerns today",
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 0,
-                "schema:name": "0",
-                "@type": "schema:option"
-            },
-            {
                 "schema:value": 1,
-                "schema:name": "1",
+                "schema:name": "Yes",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": "2",
-                "@type": "schema:option"
-            },
-            {
-                "schema:value": 3,
-                "schema:name": "3",
-                "@type": "schema:option"
-            },
-            {
-                "schema:value": 4,
-                "schema:name": "4",
+                "schema:name": "No",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "Not good",
-        "schema:maxValue": "Very good"
+        ]
     }
 }

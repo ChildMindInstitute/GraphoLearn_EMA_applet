@@ -5,38 +5,29 @@
     "@type": "reproschema:Field",
     "@id": "reading_programs",
     "ui": {
-        "inputType": "slider"
+        "inputType": "radio",
+        "allow": [
+            "autoAdvance"
+        ]
     },
-    "question": "\r\n\r\nHow many other reading programs/activities (online and offline) did your engage in this week?",
+    "question": "\r\n\r\nHow fast was the software compared to other apps you or your child use?",
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 0,
-                "schema:name": "0",
-                "@type": "schema:option"
-            },
-            {
                 "schema:value": 1,
-                "schema:name": "1",
+                "schema:name": "Average",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": "2",
+                "schema:name": "Fast",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 3,
-                "schema:name": "3",
-                "@type": "schema:option"
-            },
-            {
-                "schema:value": 4,
-                "schema:name": "4",
+                "schema:name": "Slow",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "None",
-        "schema:maxValue": "Quite a few"
+        ]
     }
 }

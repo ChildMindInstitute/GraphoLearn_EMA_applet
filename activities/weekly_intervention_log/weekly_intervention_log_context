@@ -5,12 +5,28 @@
       "@id": "weekly_intervention_log:refuse_game",
       "@type": "@id"
     },
+    "refuse_game_days": {
+      "@id": "weekly_intervention_log:refuse_game_days",
+      "@type": "@id"
+    },
+    "refuse_game_reason": {
+      "@id": "weekly_intervention_log:refuse_game_reason",
+      "@type": "@id"
+    },
     "skip_playing": {
       "@id": "weekly_intervention_log:skip_playing",
       "@type": "@id"
     },
     "technical_challenges": {
       "@id": "weekly_intervention_log:technical_challenges",
+      "@type": "@id"
+    },
+    "reinforce_aspect": {
+      "@id": "weekly_intervention_log:reinforce_aspect",
+      "@type": "@id"
+    },
+    "reinforce_aspect_frequency": {
+      "@id": "weekly_intervention_log:reinforce_aspect_frequency",
       "@type": "@id"
     },
     "reading_programs": {
@@ -31,6 +47,18 @@
     },
     "service_types": {
       "@id": "weekly_intervention_log:service_types",
+      "@type": "@id"
+    },
+    "schooling": {
+      "@id": "weekly_intervention_log:schooling",
+      "@type": "@id"
+    },
+    "schooling_changes": {
+      "@id": "weekly_intervention_log:schooling_changes",
+      "@type": "@id"
+    },
+    "schooling_changes_now": {
+      "@id": "weekly_intervention_log:schooling_changes_now",
       "@type": "@id"
     },
     "weekly_intervention_log": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/activities/weekly_intervention_log/items/"

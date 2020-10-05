@@ -3,24 +3,34 @@
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
     "@type": "reproschema:Field",
-    "@id": "programs_activities",
+    "@id": "sleep_hours",
     "ui": {
         "inputType": "radio",
         "allow": [
             "autoAdvance"
         ]
     },
-    "question": "\r\n\r\nDid your child engage in any other reading activities today [e.g., reading a book, engaging in an online reading activity]?",
+    "question": "\r\n\r\nHow many hours did your child sleep last night?",
     "responseOptions": {
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": "Yes",
+                "schema:name": "6",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": "No",
+                "schema:name": "6-7",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "8-9",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "9",
                 "@type": "schema:option"
             }
         ]

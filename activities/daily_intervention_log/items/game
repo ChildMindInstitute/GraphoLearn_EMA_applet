@@ -10,7 +10,7 @@
       "autoAdvance"
     ]
   },
-  "question": "\r\n\r\nHow much did your child play the game today (in minutes)?",
+  "question": "\r\n\r\nHow long did your child play the game today (in minutes)?",
   "responseOptions": {
     "choices": [
         {

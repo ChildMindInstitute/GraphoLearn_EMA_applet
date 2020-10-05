@@ -19,12 +19,17 @@
       "playing",
       "home_environment",
       "physical_health",
+      "physical_health_concerns",
       "sleep",
+      "sleep_difficulties",
+      "sleep_hours",
       "game_involved",
-      "game_activity",
-      "challenge_observation",
+      "game_involved_standard",
       "programs_activities",
-      "math_programs"
+      "programs_activities_hours",
+      "math_programs",
+      "math_programs_hours",
+      "challenge_observation"
     ],
     "shuffle": false,
     "addProperties": [
@@ -49,8 +54,23 @@
         "isVis": true
       },
       {
+        "variableName": "physical_health_concerns",
+        "isAbout": "physical_health_concerns",
+        "isVis": "physical_health == 1"
+      },
+      {
         "variableName": "sleep",
         "isAbout": "sleep",
+        "isVis": true
+      },
+      {
+        "variableName": "sleep_difficulties",
+        "isAbout": "sleep_difficulties",
+        "isVis": "sleep == 1"
+      },
+      {
+        "variableName": "sleep_hours",
+        "isAbout": "sleep_hours",
         "isVis": true
       },
       {
@@ -59,14 +79,9 @@
         "isVis": true
       },
       {
-        "variableName": "game_activity",
-        "isAbout": "game_activity",
-        "isVis": true
-      },
-      {
-        "variableName": "challenge_observation",
-        "isAbout": "challenge_observation",
-        "isVis": true
+        "variableName": "game_involved_standard",
+        "isAbout": "game_involved_standard",
+        "isVis": "game_involved == 1"
       },
       {
         "variableName": "programs_activities",
@@ -74,8 +89,23 @@
         "isVis": true
       },
       {
+        "variableName": "programs_activities_hours",
+        "isAbout": "programs_activities_hours",
+        "isVis": "programs_activities == 1"
+      },
+      {
         "variableName": "math_programs",
         "isAbout": "math_programs",
+        "isVis": true
+      },
+      {
+        "variableName": "math_programs_hours",
+        "isAbout": "math_programs_hours",
+        "isVis": "math_programs == 1"
+      },
+      {
+        "variableName": "challenge_observation",
+        "isAbout": "challenge_observation",
         "isVis": true
       }
     ],
