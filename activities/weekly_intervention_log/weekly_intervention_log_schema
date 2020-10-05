@@ -99,12 +99,12 @@
       {
         "variableName": "schooling_changes",
         "isAbout": "schooling_changes",
-        "isVis": true
+        "isVis": "schooling == 1"
       },
       {
         "variableName": "schooling_changes_now",
         "isAbout": "schooling_changes_now",
-        "isVis": true
+        "isVis": "schooling == 1"
       }
     ],
     "allow": []
