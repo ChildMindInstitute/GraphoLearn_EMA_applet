@@ -15,7 +15,7 @@
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": "<6",
+                "schema:name": " less than 6",
                 "@type": "schema:option"
             },
             {
@@ -30,7 +30,7 @@
             },
             {
                 "schema:value": 4,
-                "schema:name": ">9",
+                "schema:name": "greater than 9",
                 "@type": "schema:option"
             }
         ]

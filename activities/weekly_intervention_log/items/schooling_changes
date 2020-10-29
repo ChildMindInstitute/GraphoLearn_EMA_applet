@@ -10,7 +10,7 @@
             "dontKnow"
         ]
     },
-    "question": "\r\n\r\nWhat was that change?",
+    "question": "\r\n\r\nWhat was the former schooling method? Select all that apply:",
     "responseOptions": {
         "multipleChoice": true,
         "choices": [

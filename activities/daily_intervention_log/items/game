@@ -15,27 +15,27 @@
     "choices": [
         {
             "schema:value": 0,
-            "schema:name": "0 mins",
+            "schema:name": "0 minutes",
             "@type": "schema:option"
         },
         {
             "schema:value": 1,
-            "schema:name": "5 mins",
+            "schema:name": "5 minutes",
             "@type": "schema:option"
         },
         {
             "schema:value": 2,
-            "schema:name": "10 mins",
+            "schema:name": "10 minutes",
             "@type": "schema:option"
         },
         {
             "schema:value": 3,
-            "schema:name": "15 mins",
+            "schema:name": "15 minutes",
             "@type": "schema:option"
         },
         {
             "schema:value": 4,
-            "schema:name": "20 mins",
+            "schema:name": "20 minutes",
             "@type": "schema:option"
         }
     ]

@@ -10,7 +10,7 @@
             "dontKnow"
         ]
     },
-    "question": "\r\n\r\nWhat is that change?",
+    "question": "\r\n\r\nWhat is the current schooling method? Select all that apply:",
     "responseOptions": {
         "multipleChoice": true,
         "choices": [
