@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "new_services": {
+      "@id": "Weekly_Assessment:new_services",
+      "@type": "@id"
+    },
+    "new_services_specify": {
+      "@id": "Weekly_Assessment:new_services_specify",
+      "@type": "@id"
+    },
+    "Weekly_Assessment": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/activities/Weekly_Assessment/items/"
+  }
+}

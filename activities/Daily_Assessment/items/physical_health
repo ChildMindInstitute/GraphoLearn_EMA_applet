@@ -1,0 +1,40 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "physical_health",
+    "ui": {
+        "inputType": "slider"
+    },
+    "question": "How is your child’s physical health?",
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 0,
+                "schema:name": "Not good",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 1,
+                "schema:name": "",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "Very good",
+                "@type": "schema:option"
+            }
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "new_services_specify",
+    "ui": {
+        "inputType": "radio",
+        "allow": [
+            "autoAdvance"
+        ]
+    },
+    "question": "Please specify:",
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 0,
+                "schema:name": "private tutoring for reading",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 1,
+                "schema:name": "speech therapy",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "additional reading education through school",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "other",
+                "@type": "schema:option"
+            }
+        ]
+    }
+}

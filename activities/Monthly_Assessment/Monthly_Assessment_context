@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "play_refuse": {
+      "@id": "Monthly_Assessment:play_refuse",
+      "@type": "@id"
+    },
+    "play_skip": {
+      "@id": "Monthly_Assessment:play_skip",
+      "@type": "@id"
+    },
+    "technical_challenges": {
+      "@id": "Monthly_Assessment:technical_challenges",
+      "@type": "@id"
+    },
+    "other_programs": {
+      "@id": "Monthly_Assessment:other_programs",
+      "@type": "@id"
+    },
+    "like": {
+      "@id": "Monthly_Assessment:like",
+      "@type": "@id"
+    },
+    "perception": {
+      "@id": "Monthly_Assessment:perception",
+      "@type": "@id"
+    },
+    "Monthly_Assessment": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/activities/Monthly_Assessment/items/"
+  }
+}

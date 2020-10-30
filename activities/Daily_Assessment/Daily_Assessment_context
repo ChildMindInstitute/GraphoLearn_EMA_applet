@@ -1,0 +1,38 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "play_time": {
+      "@id": "Daily_Assessment:play_time",
+      "@type": "@id"
+    },
+    "play_engagement": {
+      "@id": "Daily_Assessment:play_engagement",
+      "@type": "@id"
+    },
+    "play_distractions": {
+      "@id": "Daily_Assessment:play_distractions",
+      "@type": "@id"
+    },
+    "physical_health": {
+      "@id": "Daily_Assessment:physical_health",
+      "@type": "@id"
+    },
+    "sleep": {
+      "@id": "Daily_Assessment:sleep",
+      "@type": "@id"
+    },
+    "play_involvement": {
+      "@id": "Daily_Assessment:play_involvement",
+      "@type": "@id"
+    },
+    "play_applications": {
+      "@id": "Daily_Assessment:play_applications",
+      "@type": "@id"
+    },
+    "comments": {
+      "@id": "Daily_Assessment:comments",
+      "@type": "@id"
+    },
+    "Daily_Assessment": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/activities/Daily_Assessment/items/"
+  }
+}

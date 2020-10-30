@@ -1,0 +1,36 @@
+{
+  "@context": [
+       "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+       "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/activities/Weekly_Assessment/Weekly_Assessment_context"  
+  ],
+  "@type": "reproschema:Activity",
+  "@id": "Weekly_Assessment_schema",
+  "skos:prefLabel": "Weekly_Assessment",
+  "skos:altLabel": "Weekly_Assessment_schema",
+  "schema:description": "A description can go here ",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "preamble": "",
+  "scoringLogic": {},
+  "repronim:timeUnit": "yearmonthdate",
+  "ui": {
+    "order": [
+      "new_services",
+      "new_services_specify"
+    ],
+    "shuffle": false,
+    "addProperties": [
+      {
+        "variableName": "new_services",
+        "isAbout": "new_services",
+        "isVis": true
+      },
+      {
+        "variableName": "new_services_specify",
+        "isAbout": "new_services_specify",
+        "isVis": "new_services == 1"
+      }
+    ],
+    "allow": []
+  }
+}

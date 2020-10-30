@@ -1,0 +1,61 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/activities/Monthly_Assessment/Monthly_Assessment_context"  
+  ],
+  "@type": "reproschema:Activity",
+  "@id": "Monthly_Assessment_schema",
+  "skos:prefLabel": "Monthly_Assessment",
+  "skos:altLabel": "Monthly_Assessment_schema",
+  "schema:description": "A description can go here",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "preamble": "",
+  "scoringLogic": {},
+  "repronim:timeUnit": "yearmonthdate",
+  "ui": {
+    "order": [
+      "play_refuse",
+      "play_skip",
+      "technical_challenges",
+      "other_programs",
+      "like",
+      "perception"
+    ],
+    "shuffle": false,
+    "addProperties": [
+      {
+        "variableName": "play_refuse",
+        "isAbout": "play_refuse",
+        "isVis": true
+      },
+      {
+        "variableName": "play_skip",
+        "isAbout": "play_skip",
+        "isVis": true
+      },
+      {
+        "variableName": "technical_challenges",
+        "isAbout": "technical_challenges",
+        "isVis": true
+      },
+      {
+        "variableName": "other_programs",
+        "isAbout": "other_programs",
+        "isVis": true
+      },
+      {
+        "variableName": "like",
+        "isAbout": "like",
+        "isVis": true
+      },
+      {
+        "variableName": "perception",
+        "isAbout": "perception",
+        "isVis": true
+      },
+      
+    ],
+    "allow": []
+  }
+}

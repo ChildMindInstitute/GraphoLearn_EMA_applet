@@ -1,0 +1,40 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "play_involvement",
+    "ui": {
+        "inputType": "slider"
+    },
+    "question": "How involved were you while the child was playing?",
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 0,
+                "schema:name": "Not at all",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 1,
+                "schema:name": "",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "Very much so",
+                "@type": "schema:option"
+            }
+        ]
+    }
+}

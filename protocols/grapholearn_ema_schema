@@ -1,0 +1,41 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+    "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/protocols/grapholearn_ema_context"
+  ],
+  "@type": "reproschema:Protocol",
+  "@id": "Caregiver_Daily_Check-In_Questions_schema",
+  "skos:prefLabel": "Caregiver_Daily_Check-In_Questions",
+  "schema:description": "A description can go here",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "landingPage": "A description can go here",
+  "ui": {
+    "addProperties": [
+      {
+        "variableName": "Daily_Assessment",
+        "isAbout": "Daily_Assessment",
+        "prefLabel": "Daily_Assessment",
+        "isVis": true
+      },
+      {
+        "variableName": "Weekly_Assessment",
+        "isAbout": "Weekly_Assessment",
+        "prefLabel": "Weekly_Assessment",
+        "isVis": true
+      },
+      {
+        "variableName": "Monthly_Assessment",
+        "isAbout": "Monthly_Assessment",
+        "prefLabel": "Monthly_Assessment",
+        "isVis": true
+      }
+    ],
+    "order": [
+      "Daily_Assessment",
+      "Weekly_Assessment",
+      "Monthly_Assessment"
+    ],
+    "shuffle": false
+  }
+}

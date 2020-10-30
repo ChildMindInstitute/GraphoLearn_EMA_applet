@@ -1,0 +1,40 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "perception",
+    "ui": {
+        "inputType": "slider"
+    },
+    "question": "What is your perception of GraphoLearn?",
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 0,
+                "schema:name": "Very Negative (I don’t see much value in this game)",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 1,
+                "schema:name": "",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "Very positive (the game adds value to my child’s education)",
+                "@type": "schema:option"
+            }
+        ]
+    }
+}
