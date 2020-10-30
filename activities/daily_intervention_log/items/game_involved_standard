@@ -17,22 +17,26 @@
             {
                 "schema:value": 1,
                 "schema:name": "I encouraged them",
-                "@type": "schema:option"
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/encourage.png"
             },
             {
                 "schema:value": 2,
                 "schema:name": "I clarified something",
-                "@type": "schema:option"
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/lighthouse.png"
             },
             {
                 "schema:value": 3,
                 "schema:name": "I reminded them of the instructions",
-                "@type": "schema:option"
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/remember.png"
             },
             {
                 "schema:value": 4,
                 "schema:name": "I had to help them with the technology",
-                "@type": "schema:option"
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/web-browser.png"
             }
         ]
     }

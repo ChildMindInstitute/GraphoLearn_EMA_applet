@@ -10,39 +10,45 @@
             "dontKnow"
         ]
     },
-    "question": "\r\n\r\nWhat is that change?",
+    "question": "\r\n\r\nWhat is the current schooling method? Select all that apply:",
     "responseOptions": {
         "multipleChoice": true,
         "choices": [
             {
                 "schema:value": 1,
                 "schema:name": "In person",
-                "@type": "schema:option"
+                "@type": "schema:option",
+                "schema:image: "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/class.png"
             },
             {
                 "schema:value": 2,
                 "schema:name": "Homeschool",
-                "@type": "schema:option"
+                "@type": "schema:option",
+                "schema:image: "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/home-education.png"
             },
             {
                 "schema:value": 3,
                 "schema:name": "Hybrid",
-                "@type": "schema:option"
+                "@type": "schema:option",
+                "schema:image: "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/communication.png"
             },
             {
                 "schema:value": 4,
                 "schema:name": "Fully remote",
-                "@type": "schema:option"
+                "@type": "schema:option",
+                "schema:image: "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/online-course.png"
             },
             {
                 "schema:value": 5,
                 "schema:name": "Public",
-                "@type": "schema:option"
+                "@type": "schema:option",
+                "schema:image: "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/school-bus.png"
             },
             {
                 "schema:value": 6,
                 "schema:name": "Private",
-                "@type": "schema:option"
+                "@type": "schema:option",
+                "schema:image: "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/uniform.png"
             }
         ]
     }

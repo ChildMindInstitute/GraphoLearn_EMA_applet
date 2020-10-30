@@ -16,42 +16,50 @@
             {
                 "schema:value": 1,
                 "schema:name": "Operating the tablet",
-                "@type": "schema:option"
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/tablet.png"
             },
             {
                 "schema:value": 2,
                 "schema:name": "Internet",
-                "@type": "schema:option"
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/wifi.png"
             },
             {
                 "schema:value": 3,
                 "schema:name": "Interruption of play",
-                "@type": "schema:option"
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/stop.png"
             },
             {
                 "schema:value": 4,
                 "schema:name": "Clicking",
-                "@type": "schema:option"
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/mouse.png"
             },
             {
                 "schema:value": 5,
                 "schema:name": "Freezing",
-                "@type": "schema:option"
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/ice.png"
             },
             {
                 "schema:value": 6,
                 "schema:name": "Speed",
-                "@type": "schema:option"
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/snail.png"
             },
             {
                 "schema:value": 7,
                 "schema:name": "Audio quality",
-                "@type": "schema:option"
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/mute.png"
             },
             {
                 "schema:value": 8,
                 "schema:name": "Other",
-                "@type": "schema:option"
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/question-yellow.png"
             }
         ]
     }

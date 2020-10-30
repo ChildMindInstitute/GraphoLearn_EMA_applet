@@ -10,17 +10,17 @@
             "autoAdvance"
         ]
     },
-    "question": "\r\n\r\nHow long (approximately)?",
+    "question": "\r\n\r\n![chronometer](https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/chronometer.png =250x250)\r\n\r\nFor how long (approximately)?",
     "responseOptions": {
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": "10min or less",
+                "schema:name": "10 minutes or less",
                 "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": "20 min",
+                "schema:name": "20 minutes",
                 "@type": "schema:option"
             },
             {
