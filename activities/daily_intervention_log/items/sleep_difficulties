@@ -17,27 +17,32 @@
             {
                 "schema:value": 1,
                 "schema:name": "Trouble falling asleep",
-                "@type": "schema:option"
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/fatigue.png"
             },
             {
                 "schema:value": 2,
                 "schema:name": "Trouble staying asleep",
-                "@type": "schema:option"
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/insomnia.png"
             },
             {
                 "schema:value": 3,
                 "schema:name": "Bed wetting",
-                "@type": "schema:option"
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/fluid.png"
             },
             {
                 "schema:value": 4,
                 "schema:name": "Nightmares",
-                "@type": "schema:option"
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/ghost.png"
             },
             {
                 "schema:value": 5,
                 "schema:name": "Other",
-                "@type": "schema:option"
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/night.png"
             }
         ]
     }

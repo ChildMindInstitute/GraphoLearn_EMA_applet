@@ -16,17 +16,20 @@
             {
                 "schema:value": 1,
                 "schema:name": "Average",
-                "@type": "schema:option"
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/ok.png"
             },
             {
                 "schema:value": 2,
                 "schema:name": "Fast",
-                "@type": "schema:option"
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/fast.png"
             },
             {
                 "schema:value": 3,
                 "schema:name": "Slow",
-                "@type": "schema:option"
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/snail.png"
             }
         ]
     }

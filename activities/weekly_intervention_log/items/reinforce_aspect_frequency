@@ -7,7 +7,7 @@
     "ui": {
         "inputType": "slider"
     },
-    "question": "\r\n\r\nHow often?",
+    "question": "\r\n\r\n![neural](https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/neural.png =250x250)\r\n\r\nHow often?",
     "responseOptions": {
         "choices": [
             {

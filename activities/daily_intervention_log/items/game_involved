@@ -10,7 +10,7 @@
             "autoAdvance"
         ]
     },
-    "question": "\r\n\r\nWere you involved (e.g., helping, watching) at all while your child was playing the game today?",
+    "question": "\r\n\r\n![helping](https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/helping.png =250x250)\r\n\r\nWere you involved (e.g., helping, watching) at all while your child was playing the game today?",
     "responseOptions": {
         "choices": [
             {

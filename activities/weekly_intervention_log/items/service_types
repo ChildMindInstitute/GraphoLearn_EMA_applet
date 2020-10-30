@@ -14,22 +14,26 @@
       {
         "schema:value": 1,
         "schema:name": "Private tutoring for reading",
-        "@type": "schema:option"
+        "@type": "schema:option",
+        "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/teacher.png"
       },
       {
         "schema:value": 2,
         "schema:name": "Speech therapy",
-        "@type": "schema:option"
+        "@type": "schema:option",
+        "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/voice.png"
       },
       {
         "schema:value": 3,
         "schema:name": "Additional reading education through school",
-        "@type": "schema:option"
+        "@type": "schema:option",
+        "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/blackboard.png"
       },
       {
         "schema:value": 4,
         "schema:name": "Other",
-        "@type": "schema:option"
+        "@type": "schema:option",
+        "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/question.png"
       }
     ]
   }
