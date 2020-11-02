@@ -7,7 +7,7 @@
     "ui": {
         "inputType": "slider"
     },
-    "question": "\r\n\r\n![megaphone](https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/megaphone.png =250x250)\r\n\r\nHow distracting was the home environment (noise, other people in the room) while your child was playing?",
+    "question": "\r\n\r\n![megaphone](https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/megaphone.png =150x150)\r\n\r\nHow distracting was the home environment (noise, other people in the room) while your child was playing?",
     "responseOptions": {
         "choices": [
             {

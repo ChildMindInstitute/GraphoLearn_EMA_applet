@@ -7,7 +7,7 @@
     "ui": {
         "inputType": "slider"
     },
-    "question": "\r\n\r\n![detoxification](https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/detoxification.png =250x250)\r\n\r\nHow much does your child seem to like the game?",
+    "question": "\r\n\r\n![detoxification](https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/detoxification.png =150x150)\r\n\r\nHow much does your child seem to like the game?",
     "responseOptions": {
         "choices": [
             {

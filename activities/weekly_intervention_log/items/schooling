@@ -10,7 +10,7 @@
             "autoAdvance"
         ]
     },
-    "question": "\r\n\r\n![kindergarten](https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/kindergarten.png =250x250)\r\n\r\nHas there been any change in your child’s schooling?",
+    "question": "\r\n\r\n![kindergarten](https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/kindergarten.png =150x150)\r\n\r\nHas there been any change in your child’s schooling?",
     "responseOptions": {
         "choices": [
             {

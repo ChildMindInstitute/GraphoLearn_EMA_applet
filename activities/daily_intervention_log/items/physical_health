@@ -10,7 +10,7 @@
             "autoAdvance"
         ]
     },
-    "question": "\r\n\r\n![healthcare](https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/healthcare.png =250x250)\r\n\r\nDid your child have any physical health concerns today",
+    "question": "\r\n\r\n![healthcare](https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/healthcare.png =150x150)\r\n\r\nDid your child have any physical health concerns today",
     "responseOptions": {
         "choices": [
             {

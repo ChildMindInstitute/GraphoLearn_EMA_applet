@@ -5,7 +5,7 @@ imagelinks <- read_csv('imageslinks.csv', col_names = F)
 
 imagelinksApplet <- imagelinks %>%
   mutate(X3 = paste0('\\r\\n\\r\\n![', X1, '](https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/', 
-                     X1, '.png =250x250)'))
+                     X1, '.png =150x150)'))
 
 imagesTable <- imagelinks %>%
   mutate(Image = paste0('| <img src=\"images/', X1, '.png\" width=\"150\"><br>[source](', X2, ') ')
