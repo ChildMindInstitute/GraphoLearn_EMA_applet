@@ -7,7 +7,7 @@
     "ui": {
         "inputType": "slider"
     },
-    "question": "\r\n\r\n![integration](https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/integration.png =250x250)\r\n\r\nHow much did you apply what your child is learning in the game to other activities today?",
+    "question": "\r\n\r\n![integration](https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/integration.png =150x150)\r\n\r\nHow much did you apply what your child is learning in the game to other activities today?",
     "responseOptions": {
         "choices": [
             {

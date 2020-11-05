@@ -10,7 +10,7 @@
             "autoAdvance"
         ]
     },
-    "question": "\r\n\r\n![book](https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/book.png =250x250)\r\n\r\nDid your child engage in any other reading activities today [e.g., reading a book, engaging in an online reading activity]?",
+    "question": "\r\n\r\n![book](https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/book.png =150x150)\r\n\r\nDid your child engage in any other reading activities today [e.g., reading a book, engaging in an online reading activity]?",
     "responseOptions": {
         "choices": [
             {

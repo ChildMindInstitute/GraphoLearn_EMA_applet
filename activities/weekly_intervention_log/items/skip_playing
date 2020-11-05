@@ -10,7 +10,7 @@
             "autoAdvance"
         ]
     },
-    "question": "\r\n\r\n![milometer](https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/milometer.png =250x250)\r\n\r\nHow easy was it for your child to operate the tablet/game this week?",
+    "question": "\r\n\r\n![milometer](https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/milometer.png =150x150)\r\n\r\nHow easy was it for your child to operate the tablet/game this week?",
     "responseOptions": {
         "choices": [
             {
