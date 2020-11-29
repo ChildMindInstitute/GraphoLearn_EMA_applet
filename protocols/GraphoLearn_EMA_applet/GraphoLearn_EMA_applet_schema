@@ -5,7 +5,7 @@
   ],
   "@type": "reproschema:Protocol",
   "@id": "GraphoLearn_EMA_applet_schema",
-  "skos:prefLabel": "GraphoLearn EMA applet",
+  "skos:prefLabel": "EDUCATE EMA applet",
   "schema:description": "In this set of activities we will be asking you questions about the online intervention that your child is participating in. Questions within these activities will range from daily, weekly and others asked only once. It’s important that you fill these out to the best of your ability each day/week.",
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",

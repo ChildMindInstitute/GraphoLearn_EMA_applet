@@ -10,7 +10,7 @@
             "autoAdvance"
         ]
     },
-    "question": "\r\n\r\n![neural](https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/neural.png =150x150)\r\n\r\nDid you reinforce any aspect of the child’s ( e.g., take lessons from the game and apply in real life, such as point out the sounds in words or engage in a counting game)?",
+    "question": "\r\n\r\n![neural](https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/neural.png =150x150)\r\n\r\nDid you reinforce any aspect of the child’s gameplay? (e.g., take lessons from the game and apply in real life, such as point out the sounds in words or engage in a counting game)?",
     "responseOptions": {
         "choices": [
             {

@@ -5,29 +5,27 @@
     "@type": "reproschema:Field",
     "@id": "refuse_game_reason",
     "ui": {
-        "inputType": "radio",
-        "allow": [
-            "autoAdvance"
-        ]
+        "inputType": "radio"
     },
     "question": "\r\n\r\nWhy?",
     "responseOptions": {
+        "multipleChoice": true,
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": "Sick",
+                "schema:name": "Sick or not feeling well",
                 "@type": "schema:option",
                 "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/medication.png"
             },
             {
                 "schema:value": 2,
-                "schema:name": "No motivation",
+                "schema:name": "Lack of motivation",
                 "@type": "schema:option",
                 "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/tiredness.png"
             },
             {
                 "schema:value": 3,
-                "schema:name": "Tech problems",
+                "schema:name": "Technical problems",
                 "@type": "schema:option",
                 "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/crisis-management.png"
             },
@@ -39,10 +37,17 @@
             },
             {
                 "schema:value": 5,
-                "schema:name": "Too many other activities (e.g., online schooling)",
+                "schema:name": "Too many school-related activities (e.g. online schooling, homework, etc.)",
                 "@type": "schema:option",
-                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/hourglass.png"
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/homework.png"
+            },
+            {
+                "schema:value": 6,
+                "schema:name": "Too many after-school activities (e.g. sports, arts, etc.)",
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/art.png"
             }
+
         ]
     }
 }
