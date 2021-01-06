@@ -18,6 +18,8 @@
       "refuse_game_reason",
       "skip_playing",
       "technical_challenges",
+      "refuse_headphones",
+      "refuse_headphones_freq",
       "reading_programs",
       "reinforce_aspect",
       "reinforce_aspect_frequency",
@@ -55,6 +57,16 @@
         "variableName": "technical_challenges",
         "isAbout": "technical_challenges",
         "isVis": true
+      },
+      {
+        "variableName": "refuse_headphones",
+        "isAbout": "refuse_headphones",
+        "isVis": true
+      },
+      {
+        "variableName": "refuse_headphones_frequency",
+        "isAbout": "refuse_headphones_frequency",
+        "isVis": "refuse_headphones == 2"
       },
       {
         "variableName": "reading_programs",

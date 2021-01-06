@@ -1,0 +1,28 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "refuse_headphones",
+    "ui": {
+        "inputType": "radio",
+        "allow": [
+            "autoAdvance"
+        ]
+    },
+    "question": "\r\n\r\n![headphone](https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/headphone.png =150x150)\r\n\r\nDid your child consistently wear headphones while playing the game this week?",
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "Yes",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "No",
+                "@type": "schema:option"
+            }
+        ]
+    }
+}
