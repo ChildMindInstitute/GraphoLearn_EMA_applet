@@ -21,6 +21,14 @@
       "@id": "weekly_intervention_log:technical_challenges",
       "@type": "@id"
     },
+    "refuse_headphones": {
+      "@id": "weekly_intervention_log:refuse_headphones",
+      "@type": "@id"
+    },
+    "refuse_headphones_frequency": {
+      "@id": "weekly_intervention_log:refuse_headphones_frequency",
+      "@type": "@id"
+    },
     "reinforce_aspect": {
       "@id": "weekly_intervention_log:reinforce_aspect",
       "@type": "@id"
