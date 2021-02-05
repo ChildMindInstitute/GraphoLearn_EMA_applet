@@ -3,6 +3,7 @@
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
     "@type": "reproschema:Field",
+    "@id": "challenge_observation",
     "skos:altLabel": "challenge_observation",
     "ui": {
         "inputType": "text",
