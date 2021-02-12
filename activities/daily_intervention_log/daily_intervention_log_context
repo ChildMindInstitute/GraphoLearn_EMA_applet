@@ -65,6 +65,22 @@
       "@id": "daily_intervention_log:programs_activities_hours",
       "@type": "@id"
     },
+    "participant_instructions": {
+      "@id": "daily_intervention_log:participant_instructions",
+      "@type": "@id"
+    },
+    "game_fun": {
+      "@id": "daily_intervention_log:game_fun",
+      "@type": "@id"
+    },
+    "game_hard": {
+      "@id": "daily_intervention_log:game_hard",
+      "@type": "@id"
+    },
+    "game_learned": {
+      "@id": "daily_intervention_log:game_learned",
+      "@type": "@id"
+    },
     "daily_intervention_log": "https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/activities/daily_intervention_log/items/"
   }
 }

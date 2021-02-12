@@ -29,7 +29,11 @@
       "programs_activities_hours",
       "math_programs",
       "math_programs_hours",
-      "challenge_observation"
+      "challenge_observation,
+      "participant_instructions",
+      "game_fun",
+      "game_hard",
+      "game_learned"
     ],
     "shuffle": false,
     "addProperties": [
@@ -106,6 +110,26 @@
       {
         "variableName": "challenge_observation",
         "isAbout": "challenge_observation",
+        "isVis": true
+      },
+      {
+        "variableName": "participant_instructions",
+        "isAbout": "participant_instructions",
+        "isVis": true
+      },
+      {
+        "variableName": "game_fun",
+        "isAbout": "game_fun",
+        "isVis": true
+      },
+      {
+        "variableName": "game_hard",
+        "isAbout": "game_hard",
+        "isVis": true
+      },
+      {
+        "variableName": "game_learned",
+        "isAbout": "game_learned",
         "isVis": true
       }
     ],

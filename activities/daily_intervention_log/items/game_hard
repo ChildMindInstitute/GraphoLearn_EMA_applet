@@ -1,0 +1,42 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "game_hard",
+    "ui": {
+        "inputType": "slider"
+    },
+    "question": "\r\n\r\n![game_hard](https://raw.githubusercontent.com/ChildMindInstitute/GraphoLearn_EMA_applet/master/images/game_hard.png =150x150)\r\n\r\nHow hard did you find the game today?",
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 0,
+                "schema:name": "0",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 1,
+                "schema:name": "1",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "2",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "3",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 4,
+                "schema:name": "4",
+                "@type": "schema:option"
+            }
+        ],
+        "schema:minValue": "Easy",
+        "schema:maxValue": "Hard"
+    }
+}
